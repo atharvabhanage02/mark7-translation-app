@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --primary-color:brown;
+}
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+p{
+    color:var(--primary-color);
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+nav{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-top: 0rem;
+}
+textarea{
+    width: 80%;
+    min-height: 20vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    margin-top:1rem ;
+    margin-bottom: 0.8rem;
+    font-family: inherit;
+    font-size: large;
+}
+#btn-translate{
+    background-color: var(--primary-color);
+    color: white;
+    font-size: large;
+    padding: 0.8rem;
+    border: none;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#txt-output{
+    border: 1px solid black;
+    margin: auto;
+    padding: 0.5rem;
+    width: 80%;
+    height: 20vh;
+    font-family: inherit;
+    font-size: large;
+}
+footer{
+    margin-top: 3rem;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
